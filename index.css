@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-left: 100px;
+
+
+
+
+}
+
+.stopwatch {
+    height: 450px;
+    width: 450px;
+    margin-left: 450px;
+    background-color: aquamarine;
+    border-radius: 100%;
+    background-image: url(https://media.istockphoto.com/id/1215435436/photo/hud-circle-user-interface-on-black-background-target-searching-and-scanning-holographic.jpg?s=612x612&w=0&k=20&c=6zYC4RyrBzoeErA3Og25thl0wcCt4yY3c61TEbJnIUs=);
+    background-position: 50%;
+    background-size: cover;
+    color: #fff;
+    opacity: 3.5;
+    border: 5px solid saddlebrown;
+    
+    
+}
+
+.display {
+    font-size: 3em;
+    margin-bottom: 100px;
+
+
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 7px;
+    border-radius: 20px;
+}
+#playpauseBtn{
+    /* border: 2px solid #000; */
+    height: 4rem;
+    width: 4rem;
+    margin-left:200px;
+    margin-top:-5rem;
+    /* color: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#playpauseBtn i{
+    color: #fff;
+    font-size: 2.5em;
+}
